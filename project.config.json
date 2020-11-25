@@ -4,7 +4,9 @@
     "ignore": []
   },
   "setting": {
-    "urlCheck": false,
+
+    "urlCheck": true,
+
     "es6": true,
     "enhance": false,
     "postcss": true,
@@ -29,11 +31,11 @@
       "outputPath": ""
     },
     "enableEngineNative": false,
-    "bundle": false,
+
     "useIsolateContext": true,
     "useCompilerModule": true,
     "userConfirmedUseCompilerModuleSwitch": false,
-    "userConfirmedBundleSwitch": false,
+
     "packNpmManually": false,
     "packNpmRelationList": [],
     "minifyWXSS": true
@@ -42,10 +44,17 @@
   "libVersion": "2.14.0",
   "appid": "wx8ed4cf3ec206d8c0",
   "projectname": "E-Bae",
+
+  "cloudfunctionTemplateRoot": "",
+  "watchOptions": {
+    "ignore": []
+  },
   "debugOptions": {
     "hidedInDevtools": []
   },
-  "isGameTourist": false,
+  "scripts": {},
+
+  
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},
   "condition": {

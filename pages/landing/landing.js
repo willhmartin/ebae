@@ -12,8 +12,13 @@ Page({
     wx.navigateTo({
       url: '/pages/service/service'
     })
- 
   },
+// add fonts
+//   wx.loadFontFace({
+//     family: 'Lobster',
+//     source: 'url("https://fonts.font.im/css?family=Lobster")',
+//     success: console.log
+// }) ,
 
   /**
    * Lifecycle function--Called when page load
