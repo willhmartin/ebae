@@ -2,7 +2,8 @@
   "pages": [
     "pages/service/service",
     "pages/user/user",
-    "pages/landing/landing"
+    "pages/landing/landing",
+    "pages/booking/booking"
   ],
   "window": {
     "backgroundTextStyle": "light",
