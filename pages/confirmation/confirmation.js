@@ -8,6 +8,13 @@ Page({
 
   },
 
+  goToLandingPage: function () {
+    console.log('clicked')
+    wx.switchTab({
+      url: '/pages/landing/landing'
+    })
+  },
+
   /**
    * Lifecycle function--Called when page load
    */
