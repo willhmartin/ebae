@@ -10,5 +10,18 @@
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black"
   },
+
+  "tabBar": {
+    "list": [
+     {
+       "pagePath": "pages/landing/landing",
+       "text": "Home"
+     },
+     {
+       "pagePath": "pages/user/user",
+       "text": "Profile"
+     }
+   ]
+ },
   "sitemapLocation": "sitemap.json"
 }
