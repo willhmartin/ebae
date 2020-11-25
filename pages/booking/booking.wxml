@@ -1,0 +1,47 @@
+<view class="booking-container"> 
+  <view class="buffer"></view>
+  <view class="title-card">
+    <text>Book your E-Bae</text>
+  </view>
+
+ <view class="options-container">
+    <view id="location">
+      <picker bindchange="bindPickerChange" value="{{location}}" range="{{locations}}">
+        <view class="picker">
+          Location: {{locations[location]}}
+        </view>
+      </picker>
+  </view>
+  <view id="event" class="option">
+    <picker bindchange="bindPickerChange" value="{{events}}" range="{{events}}">
+      <view class="picker">
+        Event: {{events[event]}}
+      </view>
+    </picker>
+  </view>
+  <view id="roles" class="option">
+    <picker bindchange="bindPickerChange" value="{{role}}" range="{{roles}}">
+      <view class="picker">
+        Role: {{roles[role]}}
+      </view>
+    </picker>
+  </view>
+
+  <view id="date" class="option">
+      <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+        <view class="picker">
+          Date:  {{date}}
+        </view>
+      </picker>
+  </view>
+  <view id="time" class="option">
+    <picker mode="time" value="{{time}}" start="09:01" end="21:01" bindchange="bindTimeChange">
+      <view class="picker">
+        Time: {{time}}
+      </view>
+    </picker>
+</view>
+</view>
+
+<button class="submit" bindtap="primary"> Submit Request </button>
+</view>
