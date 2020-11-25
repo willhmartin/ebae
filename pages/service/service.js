@@ -21,15 +21,15 @@ Page({
 
     // Get api data
     wx.request({
-      url: `http://localhost:3000/api/v1/stories/${47}`,
+      url: `http://localhost:3000/api/v1/services/42`,
       method: 'GET',
       success(res) {
         const service = res.data;
 
         // Update local data
-        page.setData(
-          service
-        );
+        page.setData({
+          service: service
+        });
 
         wx.hideToast();
       }
