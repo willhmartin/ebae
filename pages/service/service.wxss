@@ -38,7 +38,6 @@
   text-align: center;
   margin: 10px;
 }
-
 .book-btn {
   color: white;
   background: #E04646;
@@ -46,6 +45,11 @@
   border-radius: 50px;
   font-weight: bolder;
   text-align: center;
-   margin: 10px;
+  margin: 10px;
   transition: opacity 0.3s ease;
+}
+.background {
+  background-color: #A8BFC5;
+  /* background-size: cover; */
+  height: 100vh;
 }
