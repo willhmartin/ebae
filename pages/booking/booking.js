@@ -118,7 +118,30 @@ Page({
   onShow: function () {
 
   },
+  setEvent: function(e) {
+    console.log(e)
+    this.data.events[e.detail.value]
+    this.setData({event:this.data.events[e.detail.value]}) 
+  },
 
+  setLocation: function(e) {
+    console.log(e)
+    this.data.events[e.detail.value]
+    this.setData({location:this.data.locations[e.detail.value]}) 
+    const picked = e.detail.value
+  },
+
+  setDate: function(e) {
+    console.log(e)
+    this.data.events[e.detail.value]
+    this.setData({date:e.detail.value}) 
+  },
+
+  setTime: function(e) {
+    console.log(e)
+    this.data.events[e.detail.value]
+    this.setData({time:e.detail.value}) 
+  },
   /**
    * Lifecycle function--Called when page hide
    */
@@ -139,7 +162,30 @@ Page({
   onPullDownRefresh: function () {
 
   },
+  submitBooking: function (e) {
+    console.log(e);
+    const booking = {
+      location: this.data.location,
+      event: this.data.event,
+      date: this.data.date + " " + this.data.time,
+      user_id: 49,
+      service_id: 42
+    }
+    console.log(booking)
+    
+    wx.request({
+      url: `http://localhost:3000/api/v1/bookings`,
+      method: 'POST',
+      data: booking,
+      success() {
+        //redirect to index page when done
+        // wx.redirectTo({
+        //   url: '/pages/landing/landing'
+        // });
+      }
+    });
 
+  },
   /**
    * Called when page reach bottom
    */
