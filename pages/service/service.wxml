@@ -1,6 +1,6 @@
 <!--pages/service/service.wxml-->
-
-<view class='header'>Hello, my name is #name </view>
+<view class="background">
+  <view class='header'>Hello, my name is #name </view>
 
 <image class="avatar-large" alt="avatar-large" src="https://kitt.lewagon.com/placeholder/users/arthur-littm"></image>
   <navigator class="price-btn" href="#">$129/hr</navigator> 
@@ -8,3 +8,4 @@
 <view class='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </view>
 
 <navigator class="book-btn" href="#">Book this E-Bae</navigator> 
+</view>
