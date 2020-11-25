@@ -5,6 +5,8 @@
   height: 66px;
   left: 91px;
   top: 39px;
+  font-size: 25px;
+  font-weight: bold;
 /* 
   font-family: lobster;
   font-style: normal;
