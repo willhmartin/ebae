@@ -1,0 +1,93 @@
+<!--pages/landing/landing.wxml-->
+<view class="background">
+  <view class="container">
+
+    <!-- title -->
+  <view class="title-container">
+    <h1 class="title">E-Bae</h1>
+  </view>
+  
+  <!-- card  -->
+  <view class="card-grid">
+  <!-- card 1-->
+  <view class="card">
+    <image src="https://picsum.photos/200" />
+  <view class="card-infos">
+    <view>
+      <view class="text">
+        <view class="h2">Will Smith</view>
+        <view class="p">Age: 29</view>
+      </view>
+    
+      <view class="p1">Date, husband, boyfriend</view>
+    </view>
+    <view class="card-pricing h2">$129/hr</view>
+  </view>
+</view>
+  <!-- card 2 -->
+  <view class="card">
+      <image src="https://picsum.photos/200" />
+    <view class="card-infos">
+      <view>
+        <view class="text">
+          <view class="h2">Will Smith</view>
+          <view class="p">Age: 29</view>
+        </view>
+      
+        <view class="p1">Date, husband, boyfriend</view>
+      </view>
+      <view class="card-pricing h2">$129/hr</view>
+    </view>
+  </view>
+  <!-- card 3 -->
+  <view class="card">
+    <image src="https://picsum.photos/200" />
+  <view class="card-infos">
+    <view>
+      <view class="text">
+        <view class="h2">Will Smith</view>
+        <view class="p">Age: 29</view>
+      </view>
+    
+      <view class="p1">Date, husband, boyfriend</view>
+    </view>
+    <view class="card-pricing h2">$129/hr</view>
+  </view>
+</view>
+
+<!-- card 4 -->
+<view class="card">
+    <image src="https://picsum.photos/200" />
+  <view class="card-infos">
+    <view>
+      <view class="text">
+        <view class="h2">Will Smith</view>
+        <view class="p">Age: 29</view>
+      </view>
+    
+      <view class="p1">Date, husband, boyfriend</view>
+    </view>
+    <view class="card-pricing h2">$129/hr</view>
+  </view>
+</view>
+
+<!-- tabbar -->
+<!-- <view class="page">
+    <view class="page__hd">
+        <view class="page__title">Tabbar</view>
+        <view class="page__desc">可用于自定义tabbar</view>
+    </view>
+    <mp-tabbar style="position:fixed;bottom:0;width:100%;left:0;right:0;" list="{{list}}" bindchange="tabChange"></mp-tabbar>
+</view> -->
+
+<!-- <view class="grid">
+  <image src="https://picsum.photos/200"/>
+  <image src="https://picsum.photos/200"/>
+  <image src="https://picsum.photos/200"/>
+  <image src="https://picsum.photos/200"/>
+  <image src="https://picsum.photos/200"/>
+</view> -->
+   
+    </view>
+  </view>
+</view>
