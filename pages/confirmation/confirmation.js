@@ -1,4 +1,4 @@
-// pages/service/service.js
+// pages/confirmation/confirmation.js
 Page({
 
   /**
@@ -8,32 +8,18 @@ Page({
 
   },
 
-  booking: function() {
-    wx.navigateTo({
-      url: '/pages/booking/booking',
+  goToLandingPage: function () {
+    console.log('clicked')
+    wx.switchTab({
+      url: '/pages/landing/landing'
     })
   },
+
   /**
    * Lifecycle function--Called when page load
    */
   onLoad: function (options) {
-    let page = this;
 
-    // Get api data
-    wx.request({
-      url: `http://localhost:3000/api/v1/services/42`,
-      method: 'GET',
-      success(res) {
-        const service = res.data;
-
-        // Update local data
-        page.setData({
-          service: service
-        });
-
-        wx.hideToast();
-      }
-    });
   },
 
   /**
