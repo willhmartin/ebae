@@ -8,6 +8,11 @@ Page({
 
   },
 
+  booking: function() {
+    wx.navigateTo({
+      url: '/pages/booking/booking',
+    })
+  },
   /**
    * Lifecycle function--Called when page load
    */
