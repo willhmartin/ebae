@@ -43,5 +43,5 @@
 </view>
 </view>
 
-<button class="submit" bindtap="primary"> Submit Request </button>
+<button bindtap="goToConfirmationPage" class="submit"> Submit Request </button>
 </view>

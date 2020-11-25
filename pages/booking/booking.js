@@ -98,6 +98,13 @@ Page({
     ],
   },
 
+  goToConfirmationPage: function () {
+    console.log('clicked')
+    wx.navigateTo({
+      url: '/pages/confirmation/confirmation'
+    })
+  },
+
   /**
    * Lifecycle function--Called when page load
    */

@@ -6,7 +6,7 @@
 <image class="avatar-large" alt="avatar-large" src="https://kitt.lewagon.com/placeholder/users/arthur-littm"></image>
   <image class="avatar-large" alt="avatar-large" src="https://kitt.lewagon.com/placeholder/users/sarahlafer"></image> 
 
-<view class='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </view>
+<view class='description'>Congrats, you're all set! </view>
 
-<button bindtap="booking" class="book-btn" href="#">Back to Home</button> 
+<button bindtap="goToLandingPage" class="book-btn" href="#">Back to Home</button> 
 </view>
