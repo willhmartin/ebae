@@ -1,13 +1,15 @@
 <view class="booking-container"> 
   <view class="buffer"></view>
-  <view class="title-card">
+  <view class="title-card"> 
     <text>Book your E-Bae</text>
   </view>
 
  <view class="options-container">
     <view id="location" class="option">
+
       <picker bindchange="setLocation" value="{{location}}" range="{{locations}}">
-        <view class="picker">
+    
+       <view class="picker">
           Location: {{locations[location]}}
         </view>
       </picker>
@@ -20,7 +22,11 @@
     </picker>
   </view>
   <!-- <view id="roles" class="option">
+
     <picker bindchange="setRole" value="{{role}}" range="{{roles}}">
+
+    
+
       <view class="picker">
         Role: {{roles[role]}}
       </view>

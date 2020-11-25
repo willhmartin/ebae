@@ -1,13 +1,27 @@
 /* title */
+
+/* .container {
+  margin-top: 0;
+  margin-bottom: 0;
+} */
+
 .title {
-  position: absolute;
+  /* position: absolute; */ 
+  color: white;
   width: 193px;
   height: 66px;
   left: 91px;
-  top: 39px;
+  /* top: 20px; */
   font-size: 25px;
   font-weight: bold;
   padding:0;
+}
+
+  .title-container {
+    justify-content: center;
+    /* margin-top: 0; */
+    margin-bottom: 20px;
+  }
 
 /* 
   font-family: lobster;
@@ -16,11 +30,10 @@
   font-size: 60px;
   line-height: 75px;
   text-align: center; */
-}
 
 .background {
   background-color: #A8BFC5;
-  height: 100vh;
+  height: 100%;
 }
 
 .card {
@@ -48,7 +61,7 @@ position: relative;
 .p1 {
   font-size: 12px;
   font-weight: 100;
-  color: grey;
+  color:black;
 }
 
 

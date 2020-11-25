@@ -3,7 +3,8 @@
     "pages/service/service",
     "pages/user/user",
     "pages/landing/landing",
-    "pages/booking/booking"
+    "pages/booking/booking",
+    "pages/confirmation/confirmation"
   ],
   "window": {
     "backgroundTextStyle": "light",
