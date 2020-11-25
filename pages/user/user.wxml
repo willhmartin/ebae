@@ -1,0 +1,24 @@
+
+<view class="header" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/background.png);"></view>
+
+
+<image class="avatar-bordered" alt="avatar-bordered" src="https://kitt.lewagon.com/placeholder/users/sarahlafer" />
+
+<view class="header-text">
+    <view class='h1'>Hi, #name!</view>
+    <view class='p'>My Bookings</view>
+</view>
+    
+<view class="cards">
+  <view class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/breakfast.jpg)">
+    Breakfast
+  </view>
+
+  <view class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/lunch.jpg)">
+    Lunch
+  </view>
+</view>
+
+<view class="container">
+<navigator class="btn-plus" href="#">+</navigator>
+</view>
