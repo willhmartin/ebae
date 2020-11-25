@@ -42,7 +42,7 @@
 }
 .p {
   font-size: 15px;
-  color: gray;
+  color: black;
   opacity: .7;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
@@ -69,21 +69,31 @@ position: relative;
 }
 .text {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  align-items: flex-end;
   font-weight: bold;  
 }
 .p1 {
   font-size: 12px;
   font-weight: 100;
-  color: grey;
+  color:black;
 }
-.card-pricing h2 {
-  font-size: 12px;
+
+/* .h2 {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   position: relative;
   font-weight: bold;
+} */
+.card-pricing h2 {
+  font-size: 12px;
+  display: inline-block;
+  /* justify-content: space-between; */
+  align-items: flex-end;
+  /* position: relative; */
+  font-weight: bold; 
+  padding-right: 20px;
 }
 .card-pricing {
   position: absolute;
@@ -105,7 +115,10 @@ image {
   justify-content: flex-end;
   width: 21px;
   height: 21px;
+  margin: 0px;
 }
+
+
 /* .pricing-and-button {
   padding: 0 40rpx 0 40rpx;
   display: flex;

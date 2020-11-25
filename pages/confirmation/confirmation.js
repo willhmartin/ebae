@@ -1,18 +1,11 @@
-// pages/landing/landing.js
+// pages/confirmation/confirmation.js
 Page({
 
   /**
    * Page initial data
    */
   data: {
-  },
 
-  goToServicePage: function () {
-    console.log('clicked')
-    wx.navigateTo({
-      url: '/pages/service/service'
-    })
- 
   },
 
   /**
