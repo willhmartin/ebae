@@ -48,8 +48,8 @@
 }
 .background {
   background-color: #A8BFC5;
-  /* background-size: cover; */
-  height: 100vh;
+  background-size: cover;
+  /* height: 100vh; */
 }
 .card {
 width: 150px;

@@ -5,6 +5,12 @@ Page({
    * Page initial data
    */
   data: {
+  },
+
+  goToServicePage: function () {
+    wx.switchTab({
+      url: '/pages/service/service'
+    })
  
   },
 
