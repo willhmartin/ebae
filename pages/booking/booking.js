@@ -118,7 +118,30 @@ Page({
   onShow: function () {
 
   },
+  setEvent: function(e) {
+    console.log(e)
+    this.data.events[e.detail.value]
+    this.setData({event:this.data.events[e.detail.value]}) 
+  },
 
+  setLocation: function(e) {
+    console.log(e)
+    this.data.events[e.detail.value]
+    this.setData({location:this.data.locations[e.detail.value]}) 
+    
+  },
+
+  setDate: function(e) {
+    console.log(e)
+    this.data.events[e.detail.value]
+    this.setData({date:e.detail.value}) 
+  },
+
+  setTime: function(e) {
+    console.log(e)
+    this.data.events[e.detail.value]
+    this.setData({time:e.detail.value}) 
+  },
   /**
    * Lifecycle function--Called when page hide
    */
@@ -139,7 +162,17 @@ Page({
   onPullDownRefresh: function () {
 
   },
+  submitBooking: function (e) {
+    console.log(e);
+    const booking = {
+      location: this.data.location,
+      event: this.data.event,
+      date: this.data.date + " " + this.data.time
+    }
+    console.log(booking)
+    
 
+  },
   /**
    * Called when page reach bottom
    */
