@@ -98,12 +98,12 @@ Page({
     ],
   },
 
-  goToConfirmationPage: function () {
-    console.log('clicked')
-    wx.navigateTo({
-      url: '/pages/confirmation/confirmation'
-    })
-  },
+  // goToConfirmationPage: function () {
+  //   console.log('clicked')
+  //   wx.navigateTo({
+  //     url: '/pages/confirmation/confirmation'
+  //   })
+  // },
 
   /**
    * Lifecycle function--Called when page load
@@ -189,6 +189,12 @@ Page({
         // wx.redirectTo({
         //   url: '/pages/landing/landing'
         // });
+     
+          console.log('clicked')
+          wx.navigateTo({
+            url: '/pages/confirmation/confirmation'
+          })
+        
       }
     });
 
