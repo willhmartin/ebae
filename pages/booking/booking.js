@@ -128,7 +128,7 @@ Page({
     console.log(e)
     this.data.events[e.detail.value]
     this.setData({location:this.data.locations[e.detail.value]}) 
-    
+    const picked = e.detail.value
   },
 
   setDate: function(e) {
@@ -178,7 +178,7 @@ Page({
       method: 'POST',
       data: booking,
       success() {
-        // redirect to index page when done
+        //redirect to index page when done
         // wx.redirectTo({
         //   url: '/pages/landing/landing'
         // });
