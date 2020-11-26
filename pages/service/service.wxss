@@ -1,4 +1,7 @@
 /* pages/service/service.wxss */
+.container {
+  justify-content: center;
+}
 .header {
   color: white;
   background: #F7C326;
@@ -6,6 +9,8 @@
   border-radius: 50px;
   font-weight: bolder;
   text-align: center;
+  margin-top: 20px;
+
   margin: 10px;
   /* opacity: 0.6; */
 }
@@ -32,11 +37,11 @@
 .description {
   color: black;
   background: #FABDBD;
-  padding: 12px 12px;
+  padding: 20px 20px;
   border-radius: 50px;
   font-weight: bolder;
   text-align: center;
-  margin: 10px;
+  margin: 30px;
 }
 .book-btn {
   color: white;
@@ -45,7 +50,7 @@
   border-radius: 50px;
   font-weight: bolder;
   text-align: center;
-  margin: 10px;
+  margin: 60px;
   transition: opacity 0.3s ease;
 }
 .background {

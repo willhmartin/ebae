@@ -2,6 +2,9 @@
 <view class="background">
   <view class="container1" style="padding: 0 30rpx;">
     <!-- title -->
+
+ 
+
     <view class="title-container">
       <h1 class="title">E-Bae</h1>
     </view>
@@ -10,6 +13,7 @@
 
   <view class="card-overview" style="margin-bottom: 30rpx;" wx:for="{{services}}" wx:for-item="service">
     <!-- card-1 -->
+
 
     <view class="card-product">
       <image src="https://tse4-mm.cn.bing.net/th/id/OIP.Lpxc2s6FlxYw288I8bzDHgHaHa?pid=Api&rs=1" />
