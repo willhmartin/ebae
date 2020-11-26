@@ -1,0 +1,96 @@
+<!--pages/landing/landing.wxml-->
+<view class="background">
+  <view class="container">
+
+    <!-- title -->
+  <view class="title-container">
+    <h1 class="title">E-Bae</h1>
+  </view>
+  
+  <!-- card  -->
+  <view class="card-grid">
+  <!-- card 1-->
+  <view class="card">
+  <image src="https://picsum.photos/200" />
+  <view class="card-infos">
+  <view>
+    <view class="text">
+      <view class="h2">Will Smith</view>
+      <view class="p">Age: 29</view>
+    </view>
+    
+    <view class="p1">Date, husband, boyfriend</view>
+    <view class="price">
+      <view class="card-pricing h2">$129/hr</view>
+      <button bindtap="goToServicePage" class="btn btn-ghost row-center">
+        <view>+</view>
+      </button>
+  </view>
+  </view>
+  </view>
+</view>
+  <!-- card 2 -->
+  <view class="card">
+  <image src="https://picsum.photos/200" />
+  <view class="card-infos">
+  <view>
+    <view class="text">
+      <view class="h2">Will Smith</view>
+      <view class="p">Age: 29</view>
+    </view>
+    
+    <view class="p1">Date, husband, boyfriend</view>
+    <view class="price">
+      <view class="card-pricing h2">$129/hr</view>
+      <button bindtap="goToServicePage" class="btn btn-ghost row-center">
+        <view>+</view>
+      </button>
+  </view>
+  </view>
+  </view>
+</view>
+  <!-- card 3 -->
+  <view class="card">
+  <image src="https://picsum.photos/200" />
+  <view class="card-infos">
+  <view>
+    <view class="text">
+      <view class="h2">Will Smith</view>
+      <view class="p">Age: 29</view>
+    </view>
+    
+    <view class="p1">Date, husband, boyfriend</view>
+    <view class="price">
+      <view class="card-pricing h2">$129/hr</view>
+      <button bindtap="goToServicePage" class="btn btn-ghost row-center">
+        <view>+</view>
+      </button>
+  </view>
+  </view>
+  </view>
+</view>
+
+<!-- card 4 -->
+<view class="card">
+  <image src="https://picsum.photos/200" />
+  <view class="card-infos">
+  <view>
+    <view class="text">
+      <view class="h2">Will Smith</view>
+      <view class="p">Age: 29</view>
+    </view>
+    
+    <view class="p1">Date, husband, boyfriend</view>
+    <view class="price">
+      <view class="card-pricing h2">$129/hr</view>
+      <button bindtap="goToServicePage" class="btn btn-ghost row-center">
+        <view>+</view>
+      </button>
+  </view>
+  </view>
+  </view>
+</view>
+
+    </view>
+  </view>
+</view>

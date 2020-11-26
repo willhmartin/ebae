@@ -1,0 +1,91 @@
+
+<view class="header-image" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/greece.jpg);"></view>
+
+<view class="background">
+
+<image class="avatar-bordered" alt="avatar-bordered" src="https://kitt.lewagon.com/placeholder/users/sarahlafer" />
+
+<view class="header-text">
+    <view class='h1'>Hi, #name!</view>
+</view> 
+
+<view class="bookings-text">My Bookings</view>
+    
+<!-- card  -->
+  <view class="card-grid">
+  <!-- card 1-->
+  <view class="card">
+    <image src="https://picsum.photos/200" />
+  <view class="card-infos">
+    <view>
+      <view class="text">
+        <view class="h2">Hu Ge</view>
+        <view class="p">Age: 39</view>
+      </view>
+    
+      <view class="p1">Date</view>
+    </view>
+
+    <view class="card-pricing h2">$129/hr 
+    <navigator class="btn-plus row-center" href="#">+</navigator>
+    </view>
+  </view>
+</view>
+  <!-- card 2 -->
+  <view class="card">
+      <image src="https://picsum.photos/200" />
+    <view class="card-infos">
+      <view>
+        <view class="text">
+          <view class="h2">Li Yifeng</view>
+          <view class="p">Age: 29</view>
+        </view>
+      
+        <view class="p1">Boyfriend</view>
+      </view>
+        <view class="card-pricing h2">$229/hr
+        <navigator class="btn-plus row-center" href="#">+</navigator>
+        </view>
+    </view>
+  </view>
+  <!-- card 3 -->
+  <view class="card">
+    <image src="https://picsum.photos/200" />
+  <view class="card-infos">
+    <view>
+      <view class="text">
+        <view class="h2">Lin Yi</view>
+        <view class="p">Age: 35</view>
+      </view>
+    
+      <view class="p1">Husband</view>
+    </view>
+    <view class="card-pricing h2">$329/hr
+    <navigator class="btn-plus row-center" href="#">+</navigator>
+    </view>
+  </view>
+</view>
+
+<!-- card 4 -->
+<view class="card">
+    <image src="https://picsum.photos/200" />
+  <view class="card-infos">
+    <view>
+      <view class="text">
+        <view class="h2">Yang Yang</view>
+        <view class="p">Age: 29</view>
+      </view>
+    
+      <view class="p1">Date</view>
+    </view>
+    <view class="card-pricing h2">$209/hr
+    <navigator class="btn-plus row-center" href="#">+</navigator>
+    </view>
+  </view>
+</view>
+</view>
+</view>
+<!-- 
+<view class="container">
+<navigator class="btn-plus" href="#">+</navigator>
+</view> -->
