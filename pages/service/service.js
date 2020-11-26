@@ -10,7 +10,7 @@ Page({
 
   booking: function() {
     wx.navigateTo({
-      url: '/pages/booking/booking',
+      url: `/pages/booking/booking?service_id=${this.options.id}`,
     })
   },
   /**
@@ -19,13 +19,15 @@ Page({
   onLoad: function (options) {
     let page = this;
     const id = options.id
+    console.log(id)
     // Get api data
     wx.request({
-      url: `http://localhost:3000/api/v1/services?id=${id}`,
+      url: `http://localhost:3000/api/v1/services/${id}`,
       method: 'GET',
       success(res) {
         const service = res.data;
-
+        console.log(service)
+        console.log(service.ebae)
         // Update local data
         page.setData({
           service: service
