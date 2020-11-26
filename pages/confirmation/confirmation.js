@@ -19,6 +19,18 @@ Page({
    * Lifecycle function--Called when page load
    */
   onLoad: function (options) {
+    let page = this
+    const id = options.id
+    console.log(this)
+    wx.request({
+      url: `http://localhost:3000/api/v1/bookings/${id}`,
+      method: 'GET',
+      success(res) {
+        const ebae = res.data
+        console.log(ebae)
+        page.setData({ebae})
+      }
+    })
 
   },
 

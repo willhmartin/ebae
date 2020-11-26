@@ -98,12 +98,6 @@ Page({
     ],
   },
 
-  goToConfirmationPage: function () {
-    console.log('clicked')
-    wx.navigateTo({
-      url: '/pages/confirmation/confirmation'
-    })
-  },
 
   /**
    * Lifecycle function--Called when page load
@@ -175,26 +169,24 @@ Page({
       location: this.data.location,
       event: this.data.event,
       date: this.data.date + " " + this.data.time,
-      user_id: 49,
-      service_id: 42
+      user_id: 64,
+      service_id: 51
     }
     console.log(booking)
     
     wx.request({
-      url: `http://localhost:3000/api/v1/bookings`,
+      url: `http://localhost:3000/api/v1/services/51/bookings`,
       method: 'POST',
       data: booking,
-      success() {
-        //redirect to index page when done
-        // wx.redirectTo({
-        //   url: '/pages/landing/landing'
-        // });
-     
-          // console.log('clicked')
-          // wx.navigateTo({
-          //   url: '/pages/confirmation/confirmation'
-          // })
-        
+      success(res) {
+        console.log('works?', res)
+         const id = res.data.id
+         console.log(id)
+    wx.navigateTo({
+      url: `/pages/confirmation/confirmation?id=${id}`
+      
+    })
+  
       }
     });
 
