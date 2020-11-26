@@ -189,6 +189,12 @@ Page({
         // wx.redirectTo({
         //   url: '/pages/landing/landing'
         // });
+     
+          // console.log('clicked')
+          // wx.navigateTo({
+          //   url: '/pages/confirmation/confirmation'
+          // })
+        
       }
     });
 
