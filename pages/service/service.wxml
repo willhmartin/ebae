@@ -10,5 +10,5 @@
 
 
 <button bindtap="booking" data-id="{{options}}"class="book-btn" href="#">Book this E-Bae</button> 
-
+</view>
 </view>
