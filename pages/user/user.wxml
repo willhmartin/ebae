@@ -1,91 +1,37 @@
-
-<view class="header-image" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/greece.jpg);"></view>
+<view class="header-image" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://i.picsum.photos/id/1002/4312/2868.jpg?hmac=5LlLE-NY9oMnmIQp7ms6IfdvSUQOzP_O3DPMWmyNxwo);"></view>
 
 <view class="background">
 
-<image class="avatar-bordered" alt="avatar-bordered" src="https://kitt.lewagon.com/placeholder/users/sarahlafer" />
+  <view class="header-div">
+  <image class="avatar-bordered" alt="avatar-bordered" src="https://kitt.lewagon.com/placeholder/users/sarahlafer" />
 
-<view class="header-text">
-    <view class='h1'>Hi, #name!</view>
-</view> 
-
-<view class="bookings-text">My Bookings</view>
-    
-<!-- card  -->
-  <view class="card-grid">
-  <!-- card 1-->
-  <view class="card">
-    <image src="https://picsum.photos/200" />
-  <view class="card-infos">
-    <view>
-      <view class="text">
-        <view class="h2">Hu Ge</view>
-        <view class="p">Age: 39</view>
-      </view>
-    
-      <view class="p1">Date</view>
-    </view>
-
-    <view class="card-pricing h2">$129/hr 
-    <navigator class="btn-plus row-center" href="#">+</navigator>
-    </view>
-  </view>
+  <view class="header-text">
+      <view class='hi-user'>Hi, Bae!</view>
+  </view> 
 </view>
-  <!-- card 2 -->
-  <view class="card">
-      <image src="https://picsum.photos/200" />
-    <view class="card-infos">
-      <view>
-        <view class="text">
-          <view class="h2">Li Yifeng</view>
-          <view class="p">Age: 29</view>
+
+  <view class="bookings-text">My Bookings</view>
+
+
+
+  <view class="">
+    <view class="container1" style="padding: 0 30rpx;">
+      <!-- card  -->
+      <view class="card-grid">
+
+        <view class="card-overview" style="margin-bottom: 30rpx;" wx:for="{{3}}" wx:for-item="service">
+          <!-- card-1 -->
+          <view class="card-product">
+            <image src="https://tse4-mm.cn.bing.net/th/id/OIP.Lpxc2s6FlxYw288I8bzDHgHaHa?pid=Api&rs=1" />
+            <view class="card-product-infos">
+              <view class="h2">{{service.content}}</view>
+              <view class="p">{{service.price}}</view>
+            </view>
+          </view>
+
         </view>
-      
-        <view class="p1">Boyfriend</view>
       </view>
-        <view class="card-pricing h2">$229/hr
-        <navigator class="btn-plus row-center" href="#">+</navigator>
-        </view>
     </view>
   </view>
-  <!-- card 3 -->
-  <view class="card">
-    <image src="https://picsum.photos/200" />
-  <view class="card-infos">
-    <view>
-      <view class="text">
-        <view class="h2">Lin Yi</view>
-        <view class="p">Age: 35</view>
-      </view>
     
-      <view class="p1">Husband</view>
-    </view>
-    <view class="card-pricing h2">$329/hr
-    <navigator class="btn-plus row-center" href="#">+</navigator>
-    </view>
-  </view>
 </view>
-
-<!-- card 4 -->
-<view class="card">
-    <image src="https://picsum.photos/200" />
-  <view class="card-infos">
-    <view>
-      <view class="text">
-        <view class="h2">Yang Yang</view>
-        <view class="p">Age: 29</view>
-      </view>
-    
-      <view class="p1">Date</view>
-    </view>
-    <view class="card-pricing h2">$209/hr
-    <navigator class="btn-plus row-center" href="#">+</navigator>
-    </view>
-  </view>
-</view>
-</view>
-</view>
-<!-- 
-<view class="container">
-<navigator class="btn-plus" href="#">+</navigator>
-</view> -->
