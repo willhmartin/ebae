@@ -9,17 +9,19 @@
   
   <!-- card  -->
   <view class="card-grid">
+    <view class="card-overview" style="margin-bottom: 30rpx;" wx:for="{{4}}">
 
-<view wx:for="{{services}}" wx:for-item="service">
-  <view class="service-card">
-    <view class="card-service-info">
-      <view>{{service.content}}</view>
-      <view>{{service.price}}</view>
-      <button bindtap="onClick" data-id="{{service.id}}" class="btn">Button</button>
+    <view wx:for="{{services}}" wx:for-item="service">
+      <view class="service-card">
+        <view class="card-service-info">
+          <view>{{service.content}}</view>
+          <view>{{service.price}}</view>
+          <button bindtap="onClick" data-id="{{service.id}}" class="btn">Button</button>
+        </view>
+
+      </view>
     </view>
-
   </view>
-</view>
 </view>
 </view>
 </view>

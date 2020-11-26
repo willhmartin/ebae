@@ -6,8 +6,6 @@
 } */
 
 .title {
-  /* position: absolute; */ 
-  /* font-family:'Lobster'; */
   color: white;
   width: 193px;
   height: 66px;
