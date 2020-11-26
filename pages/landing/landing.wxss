@@ -1,16 +1,29 @@
 /* title */
+
+/* .container {
+  margin-top: 0;
+  margin-bottom: 0;
+} */
+
 .title {
-  position: absolute;
+  /* position: absolute; */ 
+  color: white;
   width: 193px;
   height: 66px;
   left: 91px;
-  top: 39px;
+  /* top: 20px; */
   font-size: 25px;
   font-weight: bold;
   padding:0;
   font-family: 'Lobster';
   margin-left: 35px;
   margin-top: 15px;
+}
+
+.title-container {
+  justify-content: center;
+  /* margin-top: 0; */
+  margin-bottom: 20px;
 }
 
   
@@ -53,7 +66,7 @@ position: relative;
 .p1 {
   font-size: 12px;
   font-weight: 100;
-  color: grey;
+  color:black;
 }
 
 

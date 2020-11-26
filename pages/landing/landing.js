@@ -8,7 +8,8 @@ Page({
   },
 
   goToServicePage: function () {
-    wx.switchTab({
+    console.log('clicked')
+    wx.navigateTo({
       url: '/pages/service/service'
     })
   },

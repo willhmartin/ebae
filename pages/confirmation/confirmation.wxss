@@ -1,4 +1,4 @@
-/* pages/service/service.wxss */
+/* pages/confirmation/confirmation.wxss */
 .header {
   color: white;
   background: #F7C326;
@@ -10,8 +10,8 @@
   /* opacity: 0.6; */
 }
 .avatar-large {
-  width: 156px;
-  height: 156px;
+  width: 100px;
+  height: 100px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -41,7 +41,7 @@
 .book-btn {
   color: white;
   background: #E04646;
-  padding: 12px 15px;
+  /* padding: 12px 15px; */
   border-radius: 50px;
   font-weight: bolder;
   text-align: center;
@@ -51,5 +51,5 @@
 .background {
   background-color: #A8BFC5;
   /* background-size: cover; */
-  height: 100%;
+  height: 100vh;
 }

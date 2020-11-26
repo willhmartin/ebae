@@ -22,9 +22,9 @@
     <view class="p1">Date, husband, boyfriend</view>
     <view class="price">
       <view class="card-pricing h2">$129/hr</view>
-      <view class="btn btn-ghost row-center">
+      <button bindtap="goToServicePage" class="btn btn-ghost row-center">
         <view>+</view>
-      </view>
+      </button>
   </view>
   </view>
   </view>
@@ -42,9 +42,9 @@
     <view class="p1">Date, husband, boyfriend</view>
     <view class="price">
       <view class="card-pricing h2">$129/hr</view>
-      <view class="btn btn-ghost row-center">
+      <button bindtap="goToServicePage" class="btn btn-ghost row-center">
         <view>+</view>
-      </view>
+      </button>
   </view>
   </view>
   </view>
@@ -62,9 +62,9 @@
     <view class="p1">Date, husband, boyfriend</view>
     <view class="price">
       <view class="card-pricing h2">$129/hr</view>
-      <view class="btn btn-ghost row-center">
+      <button bindtap="goToServicePage" class="btn btn-ghost row-center">
         <view>+</view>
-      </view>
+      </button>
   </view>
   </view>
   </view>
@@ -83,18 +83,14 @@
     <view class="p1">Date, husband, boyfriend</view>
     <view class="price">
       <view class="card-pricing h2">$129/hr</view>
-      <view class="btn btn-ghost row-center">
+      <button bindtap="goToServicePage" class="btn btn-ghost row-center">
         <view>+</view>
-      </view>
+      </button>
   </view>
   </view>
   </view>
 </view>
 
-
-
-
-   
     </view>
   </view>
 </view>

@@ -1,0 +1,12 @@
+<!--pages/confirmation/confirmation.wxml-->
+
+<view class="background">
+  <view class='header'>Booking Confirmed </view>
+
+<image class="avatar-large" alt="avatar-large" src="https://kitt.lewagon.com/placeholder/users/arthur-littm"></image>
+  <image class="avatar-large" alt="avatar-large" src="https://kitt.lewagon.com/placeholder/users/sarahlafer"></image> 
+
+<view class='description'>Congrats, you're all set! </view>
+
+<button bindtap="goToLandingPage" class="book-btn" href="#">Back to Home</button> 
+</view>
