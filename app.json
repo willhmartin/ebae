@@ -19,8 +19,18 @@
         "text": "Home"
       },
       {
-        "pagePath": "pages/user/user",
+        "pagePath": "pages/user/user"
+        
+      },
+      {
+        "pagePath": "pages/service/service"
+      },
+      {
+        "pagePath": "pages/confirmation/confirmation",
         "text": "Profile"
+      },
+      {
+        "pagePath": "pages/booking/booking"
       }
     ]
   },

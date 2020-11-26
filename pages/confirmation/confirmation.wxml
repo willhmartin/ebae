@@ -1,12 +1,33 @@
 <!--pages/confirmation/confirmation.wxml-->
 
-<view class="background">
+<view class="background" style="padding: 100rpx 30rpx 0 30rpx;">
   <view class='header'>Booking Confirmed </view>
 
-<image class="avatar-large" alt="avatar-large" src="https://kitt.lewagon.com/placeholder/users/arthur-littm"></image>
-  <image class="avatar-large" alt="avatar-large" src="https://kitt.lewagon.com/placeholder/users/sarahlafer"></image> 
+  <view class="avatar">
+    <image class="avatar-large" alt="avatar-large" id="img" src="https://kitt.lewagon.com/placeholder/users/arthur-littm"></image>
+      <image class="avatar-large" alt="avatar-large" id="imgTwo"src="https://kitt.lewagon.com/placeholder/users/sarahlafer"></image> 
+</view>
 
-<view class='description'>Congrats, you're all set! </view>
-
-<button bindtap="goToLandingPage" class="book-btn" href="#">Back to Home</button> 
+<!-- confirm info  -->
+<view class="content">
+  <view class='description'>
+  <view>Congrats, you're all set!</view>
+    <view class="content-title">
+      <view>Date</view>
+      <view>12/25/2020</view>
+    </view>
+    <view class="content-title"> 
+      <view>Time</view>
+      <view>2 Hours</view>
+    </view>
+    <view class="content-title"> 
+      <view>Event</view>
+      <view>Wedding</view>
+    </view>
+    <view class="content-title"> 
+      <view>Location</view>
+      <view>Shanghai</view>
+    </view>
+  </view>
+</view>
 </view>
