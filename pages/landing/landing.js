@@ -7,20 +7,23 @@ Page({
   data: {
   },
 
-  goToServicePage: function () {
-    console.log('clicked')
-    wx.navigateTo({
-      url: '/pages/service/service'
-    })
-  },
+  // goToServicePage: function () {
+  //   console.log('clicked')
+  //   wx.navigateTo({
+  //     url: '/pages/service/service'
+  //   })
+  // },
   onClick: function (event) {
+    console.log(event)
     console.log(event.currentTarget.dataset)
     //get event from id
     const id = event.currentTarget.dataset.id
+    console.log(event.currentTarget.dataset)
     console.log(id)
     wx.navigateTo({
       url: `/pages/service/service?id=${id}`
     })
+
   },
 
   /**

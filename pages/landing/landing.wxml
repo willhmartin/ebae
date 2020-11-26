@@ -10,8 +10,25 @@
   <!-- card  -->
   <view class="card-grid">
 
+<view wx:for="{{services}}" wx:for-item="service">
+  <view class="service-card">
+    <view class="card-service-info">
+      <view>{{service.content}}</view>
+      <view>{{service.price}}</view>
+      <button bindtap="onClick" data-id="{{service.id}}" class="btn">Button</button>
+    </view>
+
+  </view>
+</view>
+</view>
+</view>
+</view>
+
+
+
+
     
-    <view class="services-list" wx:for="{{services}}" wx:for-item="service">
+    <!-- <view bindtap="onClick" data-id="{{services.id}}" class="services-list" wx:for="{{services}}" wx:for-item="service">
       <view class="individual-card">
         <view class="title"> <text>{{service.content}}</text></view>
         <view class="rate"><text>{{service.price}}</text></view>
@@ -20,7 +37,7 @@
 
     </view>
   </view>
-</view>
+</view> -->
   <!-- card 1-->
   <!-- <view class="card" bindtap="onClick" data-id="{{services[5].id}}">
   <image src="https://picsum.photos/200" />
