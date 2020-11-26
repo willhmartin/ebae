@@ -18,10 +18,10 @@ Page({
    */
   onLoad: function (options) {
     let page = this;
-
+    const id = options.id
     // Get api data
     wx.request({
-      url: `http://localhost:3000/api/v1/services/42`,
+      url: `http://localhost:3000/api/v1/services?id=${id}`,
       method: 'GET',
       success(res) {
         const service = res.data;
