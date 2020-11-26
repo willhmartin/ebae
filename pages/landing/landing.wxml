@@ -9,17 +9,29 @@
   
   <!-- card  -->
   <view class="card-grid">
+
+    
+    <view class="services-list" wx:for="{{services}}" wx:for-item="service">
+      <view class="individual-card">
+        <view class="title"> <text>{{service.content}}</text></view>
+        <view class="rate"><text>{{service.price}}</text></view>
+      </view>
+    </view>
+
+    </view>
+  </view>
+</view>
   <!-- card 1-->
-  <view class="card">
+  <!-- <view class="card" bindtap="onClick" data-id="{{services[5].id}}">
   <image src="https://picsum.photos/200" />
   <view class="card-infos">
   <view>
     <view class="text">
-      <view class="h2">Will Smith</view>
+      <view class="h2">{{services[0].content}}</view>
       <view class="p">Age: 29</view>
-    </view>
+    </view> -->
     
-    <view class="p1">Date, husband, boyfriend</view>
+    <!-- <view class="p1">Date, husband, boyfriend</view>
     <view class="price">
       <view class="card-pricing h2">$129/hr</view>
       <button bindtap="goToServicePage" class="btn btn-ghost row-center">
@@ -28,9 +40,9 @@
   </view>
   </view>
   </view>
-</view>
+</view> -->
   <!-- card 2 -->
-  <view class="card">
+  <!-- <view class="card">
   <image src="https://picsum.photos/200" />
   <view class="card-infos">
   <view>
@@ -48,9 +60,9 @@
   </view>
   </view>
   </view>
-</view>
+</view> -->
   <!-- card 3 -->
-  <view class="card">
+  <!-- <view class="card">
   <image src="https://picsum.photos/200" />
   <view class="card-infos">
   <view>
@@ -68,10 +80,10 @@
   </view>
   </view>
   </view>
-</view>
+</view> -->
 
 <!-- card 4 -->
-<view class="card">
+<!-- <view class="card">
   <image src="https://picsum.photos/200" />
   <view class="card-infos">
   <view>
@@ -93,4 +105,5 @@
 
     </view>
   </view>
-</view>
+</view> -->
+
