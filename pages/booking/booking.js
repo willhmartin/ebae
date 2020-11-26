@@ -103,7 +103,9 @@ Page({
    * Lifecycle function--Called when page load
    */
   onLoad: function (options) {
-
+    // let page = this;
+    
+   
   },
 
   /**
@@ -165,27 +167,30 @@ Page({
   },
   submitBooking: function (e) {
     console.log(e);
+    const service_id = this.options.service_id
+    const user_id = getApp().globalData.userId
+    // const id = this.data.service_id
+    // console.log(id)
     const booking = {
       location: this.data.location,
       event: this.data.event,
       date: this.data.date + " " + this.data.time,
-      user_id: 64,
-      service_id: 51
+  
     }
     console.log(booking)
     
     wx.request({
-      url: `http://localhost:3000/api/v1/services/51/bookings`,
+      url: `http://localhost:3000/api/v1/services/${service_id}/bookings?user_id=${user_id}`,
       method: 'POST',
       data: booking,
       success(res) {
         console.log('works?', res)
-         const id = res.data.id
+        const id = res.data.id
          console.log(id)
-    wx.navigateTo({
-      url: `/pages/confirmation/confirmation?id=${id}`
+         wx.navigateTo({
+          url: `/pages/confirmation/confirmation?id=${id}`
       
-    })
+        })
   
       }
     });
