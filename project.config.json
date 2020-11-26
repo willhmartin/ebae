@@ -4,12 +4,33 @@
     "ignore": []
   },
   "setting": {
-    "urlCheck": true,
+    "urlCheck": false,
     "es6": true,
     "postcss": true,
     "minified": true,
     "newFeature": true,
-    "autoAudits": false
+    "nodeModules": false,
+    "autoAudits": false,
+    "scopeDataCheck": false,
+    "uglifyFileName": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "useMultiFrameRuntime": false,
+    "useApiHook": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "bundle": false,
+    "useIsolateContext": true,
+    "useCompilerModule": true,
+    "userConfirmedUseCompilerModuleSwitch": false,
+    "userConfirmedBundleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "minifyWXSS": true
   },
   "compileType": "miniprogram",
   "libVersion": "2.14.0",
@@ -22,18 +43,48 @@
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},
   "condition": {
-    "search": {
-      "list": []
-    },
-    "conversation": {
+    "plugin": {
       "list": []
     },
     "game": {
-      "currentL": -1,
+      "list": []
+    },
+    "gamePlugin": {
       "list": []
     },
     "miniprogram": {
-      "list": []
+      "list": [
+        {
+          "name": "Landing",
+          "pathName": "pages/landing/landing",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "Service ",
+          "pathName": "pages/service/service",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "Booking",
+          "pathName": "pages/booking/booking",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "Confirmation",
+          "pathName": "pages/confirmation/confirmation",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "User Profile",
+          "pathName": "pages/user/user",
+          "query": "",
+          "scene": null
+        }
+      ]
     }
   }
 }
