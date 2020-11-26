@@ -13,17 +13,31 @@ Page({
       url: '/pages/service/service'
     })
   },
-// add fonts
-//   wx.loadFontFace({
-//     family: 'Lobster',
-//     source: 'url("https://fonts.font.im/css?family=Lobster")',
-//     success: console.log
-// }) ,
+  onClick: function (event) {
+    console.log(event.currentTarget.dataset)
+    //get event from id
+    const id = event.currentTarget.dataset.id
+    console.log(id)
+    wx.navigateTo({
+      url: `/pages/service/service?id=${id}`
+    })
+  },
 
   /**
    * Lifecycle function--Called when page load
    */
   onLoad: function (options) {
+    let page = this
+    wx.request({
+      url: 'http://localhost:3000/api/v1/services',
+      method: 'GET',
+      success(res) {
+        console.log(res.data)
+        const services = res.data
+        console.log(services)
+        page.setData({services})
+      }
+    })
 
   },
 
