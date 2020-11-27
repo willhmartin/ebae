@@ -30,7 +30,6 @@ Page({
       success(res) {
         const ebae = res.data
         console.log(ebae)
-        console.log(ebae.ebae.duration)
         page.setData({ebae})
       }
     })

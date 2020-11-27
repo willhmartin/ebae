@@ -15,17 +15,17 @@
 <view class="content">
   <view class='description'>
     <view class="content-title">
-      <view>Date & Time</view>
+      <view>Date</view>
     </view>
         <view class="content-value">
-          <view>{{ebae.date}}hrs</view> 
+          <view>{{ebae.dateOnly}}</view> 
         </view>
     
     <view class="content-title"> 
       <view>Duration</view>
     </view> 
       <view class="content-value">
-        <view>{{ebae.ebae.duration}}</view>
+        <view>{{ebae.ebae.duration}} hrs</view>
       </view>
 
     <view class="content-title"> 
@@ -43,9 +43,4 @@
     <button  bindtap="goProfile" class="submit">Profile</button>
 
   </view>
-
-
-  <button  bindtap="goProfile" class="submit">Profile</button>
-
-
 </view>
