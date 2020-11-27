@@ -1,7 +1,7 @@
 <!--pages/service/service.wxml-->
 <view class="background">
   <view class="container">
-    <view class='header'>Hello, my name is Will Smith </view>
+    <view class='header'>" Hello, my name is Will Smith "</view>
 
   <image class="avatar-large" alt="avatar-large" src="https://kitt.lewagon.com/placeholder/users/arthur-littm"></image>
     <navigator class="price-btn" href="#">$129/hr</navigator> 
@@ -11,4 +11,5 @@
 
 <button bindtap="booking" data-id="{{options}}"class="book-btn" href="#">Book this E-Bae</button> 
 
+</view>
 </view>
