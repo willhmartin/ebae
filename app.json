@@ -20,13 +20,12 @@
       },
       {
         "pagePath": "pages/user/user"
-        
       },
       {
         "pagePath": "pages/service/service"
       },
       {
-        "pagePath": "pages/confirmation/confirmation",
+        "pagePath": "pages/user/user",
         "text": "Profile"
       },
       {

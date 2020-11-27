@@ -25,8 +25,8 @@
   margin: 50px;
 }
 .avatar-large {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   display: block;
   border-radius: 50%;
   text-align: center;
@@ -50,7 +50,9 @@
   font-weight: bolder;
   text-align: center;
   margin: 10px;
-  margin-top: 100px;
+  margin-top: 60px;
+  /* margin-top: 100px; */
+
 }
 .content-title{
   display: flex;
@@ -74,4 +76,14 @@
   background-color: #A8BFC5;
   /* background-size: cover; */
   height: 100vh;
+}
+
+.content-header {
+  color: #4A4A4A;
+  font-family: 'Lobster';
+  font-size: 30px;
+  padding: 20px 20px;
+  font-weight: bolder;
+  text-align: center;
+  margin: 10px;
 }

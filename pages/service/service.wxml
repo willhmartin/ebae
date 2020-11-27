@@ -1,17 +1,33 @@
 <!--pages/service/service.wxml-->
 <view class="background">
   <view class="container">
-    <view class='header'>Hello, my name is Will Smith </view>
 
-  <image class="avatar-large" alt="avatar-large" src="https://kitt.lewagon.com/placeholder/users/arthur-littm"></image>
-    <navigator class="price-btn" href="#">$129/hr</navigator> 
+    <!-- image -->
+    <image class="avatar-large" alt="avatar-large" src="https://kitt.lewagon.com/placeholder/users/arthur-littm"></image>
+    <!-- name -->
+    <view class='header'>
+      <view class="p1">Christopher Smith </view>
+      <view class="p2">Shanghai, China</view>
+    </view>
 
-  <view class='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </view>
-
-
-<button bindtap="booking" class="book-btn" href="#">Book this E-Bae</button> 
-</view>
-</view>
 
 
 <!-- data-id="{{service}}" -->
+
+    <view class='description'>
+      <view class="content-title">About Me</view>
+      <view class="about-me-content">Recent accomplishments include: Running my first 10k, crowd surfing, and learning the piano 🏃🏻‍♂️💪 Recent failures include: Fainting after my first 10k, losing my wallet while crowd surfing, and not being able to get chopsticks out of my head 🙃🤪</view>
+      <view class="content-title">Language</view>
+      <view class="about-me-content"> English, German, French, Chinese 🇮🇹🇨🇴🇨🇰🇬🇧🏴󠁧󠁢󠁥󠁮󠁧󠁿</view>
+      <view class="content-title">Hobbies</view>
+      <view class="about-me-content">Tennis, surfing, skatboard, HIIT 🌮🍕🥗🍔🍺🍣🥨</view>
+      <view class="content-title">Music</view>
+      <view class="about-me-content">Lo-Fi Beat, City of Sun, Calvin Harris, Frank Sinatra, H.E.R. Summer Walker, G-Easy, AC/DC 🎹🎧🎤🎶</view>
+      <view class="content-title">Hourly Rate</view>
+      <view class="about-me-content">$129/hr</view>
+      <!-- <navigator class="price-btn" href="#">$129/hr</navigator>  -->
+    </view>
+      <button bindtap="booking" data-id="{{options}}"class="book-btn" href="#">Book E-Bae</button> 
+  </view>
+</view>
+

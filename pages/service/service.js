@@ -9,7 +9,9 @@ Page({
   },
 
   booking: function() {
+
     wx.reLaunch({
+
       url: `/pages/booking/booking?service_id=${this.options.id}`,
     })
   },
