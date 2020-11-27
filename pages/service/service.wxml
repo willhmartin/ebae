@@ -7,7 +7,7 @@
       <view class="p2">Shanghai, China</view>
     </view>
     <!-- image -->
-    <image class="avatar-large" alt="avatar-large" src="https://kitt.lewagon.com/placeholder/users/arthur-littm"></image>
+    <image class="avatar-large" alt="avatar-large" mode="aspectFill" src="{{service.ebae.avatar}}"></image>
   
     <!-- <view class='header'>
       <view class="p1">Christopher Smith </view>
