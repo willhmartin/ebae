@@ -33,6 +33,15 @@ Page({
         page.setData({ebae})
       }
     })
+    wx.request({
+      url: `http://localhost:3000/api/v1/users/${getApp().globalData.userId}`,
+      method: 'GET',
+      success(res) {
+      const user = res.data
+      console.log(user)
+      page.setData({user})
+      }
+    })
 
   },
 
