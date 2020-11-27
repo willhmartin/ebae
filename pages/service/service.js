@@ -9,7 +9,9 @@ Page({
   },
 
   booking: function() {
-    wx.switchTab({
+
+    wx.reLaunch({
+
       url: `/pages/booking/booking?service_id=${this.options.id}`,
     })
   },
@@ -17,12 +19,13 @@ Page({
    * Lifecycle function--Called when page load
    */
   onLoad: function (options) {
+    console.log(options)
     let page = this;
-    const id = options.id
-    console.log(id)
+    
+    
     // Get api data
     wx.request({
-      url: `http://localhost:3000/api/v1/services/${id}`,
+      url: `http://localhost:3000/api/v1/services/${options.id}`,
       method: 'GET',
       success(res) {
         const service = res.data;
@@ -30,7 +33,7 @@ Page({
         console.log(service.ebae)
         // Update local data
         page.setData({
-          service: service
+          service
         });
 
         wx.hideToast();

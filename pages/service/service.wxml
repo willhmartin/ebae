@@ -10,6 +10,10 @@
       <view class="p2">Shanghai, China</view>
     </view>
 
+
+
+<!-- data-id="{{service}}" -->
+
     <view class='description'>
       <view class="content-title">About Me</view>
       <view class="about-me-content">Recent accomplishments include: Running my first 10k, crowd surfing, and learning the piano 🏃🏻‍♂️💪 Recent failures include: Fainting after my first 10k, losing my wallet while crowd surfing, and not being able to get chopsticks out of my head 🙃🤪</view>
@@ -26,3 +30,4 @@
       <button bindtap="booking" data-id="{{options}}"class="book-btn" href="#">Book E-Bae</button> 
   </view>
 </view>
+
