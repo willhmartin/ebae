@@ -6,12 +6,12 @@
 .header {
   color: white;
   background: #F7C326;
-  padding: 25px 30px;
+  padding: 5px 30px;
   border-radius: 50px;
   font-weight: bolder;
   text-align: center;
   margin-top: 40px;
-  margin: 10px;
+  margin: 20px;
   font-family: Lobster;
   font-size: 40px;
   /* opacity: 0.6; */

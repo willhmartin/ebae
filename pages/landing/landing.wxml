@@ -13,7 +13,7 @@
 
     <view class="card-product" bindtap="onClick" data-id="{{service.id}}">
 
-      <image src="https://tse4-mm.cn.bing.net/th/id/OIP.Lpxc2s6FlxYw288I8bzDHgHaHa?pid=Api&rs=1" />
+      <image class="card-image" src="https://tse4-mm.cn.bing.net/th/id/OIP.Lpxc2s6FlxYw288I8bzDHgHaHa?pid=Api&rs=1" />
       <view class="card-product-infos">
         <view class="h2">{{service.content}}</view>
         <view class="p">${{service.price}}</view>
