@@ -18,7 +18,7 @@
   padding: 10px 100px;
 }
 .p1{
-  font-size: 40px;
+  font-size: 50px;
 }
 .p2{
   font-size: 15px;

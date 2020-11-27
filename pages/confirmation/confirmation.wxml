@@ -5,7 +5,7 @@
 
   <view class="avatar">
 
-    <image class="avatar-large" alt="avatar-large" id="img" src="{{ebaeImages[0]}}"></image>
+    <image class="avatar-large" alt="avatar-large" id="img" src="{{service.ebae.avatar}}"></image>
       <image class="avatar-large" alt="avatar-large" id="imgTwo"src="{{user.avatar}}"></image> 
 </view>
 
@@ -15,33 +15,36 @@
 <view class="content">
   <view class='description'>
     <view class="content-title">
-      <view>Date</view>
+      <view>Date & Time</view>
     </view>
         <view class="content-value">
-          <view>12/25/2020</view> 
+          <view>{{ebae.date}}hrs</view> 
         </view>
     
     <view class="content-title"> 
-      <view>Time</view>
+      <view>Duration</view>
     </view> 
       <view class="content-value">
-        <view>2 Hours</view>
+        <view>{{ebae.ebae.duration}}</view>
       </view>
 
     <view class="content-title"> 
       <view>Event</view>
     </view>
     <view class="content-value">
-      <view>Wedding</view>
+      <view>{{ebae.event}}</view>
     </view>
     <view class="content-title"> 
       <view>Location</view>
     </view>
     <view class="content-value"></view>
-      <view>Shanghai</view>
+      <view>{{ebae.location}}</view>
     </view>
     <button  bindtap="goProfile" class="submit">Profile</button>
 
   </view>
+
+  <button  bindtap="goProfile" class="submit">Profile</button>
+
 
 </view>
