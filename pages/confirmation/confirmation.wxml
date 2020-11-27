@@ -40,7 +40,11 @@
     <view class="content-value"></view>
       <view>{{ebae.location}}</view>
     </view>
+    <button  bindtap="goProfile" class="submit">Profile</button>
+
   </view>
+
   <button  bindtap="goProfile" class="submit">Profile</button>
+
 
 </view>

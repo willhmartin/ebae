@@ -87,7 +87,7 @@
   /* background-size: cover; */
   height: 100%;
   margin: 0px;
-}
+
 
 .content-header {
   color: #4A4A4A;
@@ -107,5 +107,8 @@
   font-weight: bolder;
   font-family: Lobster;
   font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
   }
 
