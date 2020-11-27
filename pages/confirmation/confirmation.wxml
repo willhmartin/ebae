@@ -40,7 +40,8 @@
     <view class="content-value"></view>
       <view>Shanghai</view>
     </view>
+    <button  bindtap="goProfile" class="submit">Profile</button>
+
   </view>
-  <button  bindtap="submitBooking" class="submit">Profile</button>
 
 </view>

@@ -8,10 +8,10 @@ Page({
 
   },
 
-  goToLandingPage: function () {
+  goProfile: function () {
     console.log('clicked')
     wx.switchTab({
-      url: '/pages/landing/landing'
+      url: '/pages/user/user'
     })
   },
 

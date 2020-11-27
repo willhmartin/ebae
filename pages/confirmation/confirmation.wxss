@@ -84,7 +84,7 @@
 .background {
   background-color: #A8BFC5;
   /* background-size: cover; */
-  height: 100vh;
+  height: 100%;
 }
 
 .content-header {
@@ -104,5 +104,8 @@
   font-weight: bolder;
   font-family: Lobster;
   font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
   }
 

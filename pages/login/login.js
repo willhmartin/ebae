@@ -5,7 +5,8 @@ Page({
    * Page initial data
    */
   data: {
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    canIUse: wx.canIUse('button.open-type.getUserInfo'),
+
   },
 
   /**

@@ -13,9 +13,9 @@
 
     <view class="card-product" bindtap="onClick" data-id="{{service.id}}">
 
-
-      <image src="{{ebaeImages[index]}}" />
-
+      <view class="card-image">
+        <image src="{{ebaeImages[index]}}" style="height: 100%; width: 100%;" mode="aspectFill" />
+      </view>
       <view class="card-product-infos">
         <view class="h1">Name: {{service.ebae.name}}</view>
         <view class="h2">One-liner: {{service.content}}</view>
