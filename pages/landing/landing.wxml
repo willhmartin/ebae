@@ -1,7 +1,7 @@
 <!--pages/landing/landing.wxml-->
 <view class="background">
   <view class="container1" style="padding: 0 30rpx;">
-    <!-- title -->
+    <!-- title --> 
     <view class="title-container">
       <h1 class="title">" I can be your E-Bae "</h1>
     </view>
@@ -13,9 +13,12 @@
 
     <view class="card-product" bindtap="onClick" data-id="{{service.id}}">
 
-      <image src="https://tse4-mm.cn.bing.net/th/id/OIP.Lpxc2s6FlxYw288I8bzDHgHaHa?pid=Api&rs=1" />
+
+      <image src="{{ebaeImages[index]}}" />
+
       <view class="card-product-infos">
-        <view class="h2">{{service.content}}</view>
+        <view class="h1">Name: {{service.ebae.name}}</view>
+        <view class="h2">One-liner: {{service.content}}</view>
         <view class="p">${{service.price}}</view>
       </view>
     </view>

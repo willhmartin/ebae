@@ -20,8 +20,10 @@ Page({
    */
   onLoad: function (options) {
     let page = this
+    console.log(options)
     const id = options.id
-    console.log(this)
+    // console.log(this)
+    
     wx.request({
       url: `http://localhost:3000/api/v1/bookings/${id}`,
       method: 'GET',

@@ -5,7 +5,13 @@ Page({
    * Page initial data
    */
   data: {
-    
+
+    ebaeImages: [
+      "/images/Reddrink.jpg",
+      "/images/profile2.jpg",
+      "/images/profile3.jpg",
+    ]
+
   },
 
   // goToServicePage: function () {
@@ -22,8 +28,7 @@ Page({
     console.log(event.currentTarget.dataset)
     console.log(id)
 
-    wx.reLaunch({
-
+    wx.navigateTo({
       url: `/pages/service/service?id=${id}`
     })
 //  parameters cannot be appended after a tab switch url
