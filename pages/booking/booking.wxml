@@ -9,14 +9,14 @@
       <view id="location" class="option">
         <picker bindchange="setLocation" value="{{location}}" range="{{locations}}">
           <view class="picker">
-            Location {{locations[location]}}
+            {{location||'Select location'}}
           </view>
         </picker>
     </view>
     <view id="event" class="option">
       <picker bindchange="setEvent" value="{{events}}" range="{{events}}">
         <view class="picker">
-          Event {{events[event]}}
+          {{event||'Select event'}}
         </view>
       </picker>
     </view>

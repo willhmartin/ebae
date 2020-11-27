@@ -24,6 +24,11 @@ Page({
       }
     })
 
+    
+
+
+
+
   },
 
   /**
@@ -37,7 +42,17 @@ Page({
    * Lifecycle function--Called when page show
    */
   onShow: function () {
-
+    let page = this
+    wx.request({
+      url: `http://localhost:3000/api/v1/users/${getApp().globalData.userId}/bookings`,
+      method: 'GET',
+      success(res) {
+        console.log('works?', res)
+        const bookings = res.data
+        console.log(bookings)
+        page.setData({bookings})
+      }
+    })
   },
 
   /**

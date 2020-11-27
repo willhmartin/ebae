@@ -15,10 +15,12 @@
 <view class="content">
   <view class='description'>
     <view class="content-title">
-      <view>Date & Time</view>
+      <view>Date</view>
     </view>
         <view class="content-value">
-          <view>{{ebae.date}}</view> 
+
+          <view>{{ebae.dateOnly}}</view> 
+
         </view>
     
     <view class="content-title"> 
