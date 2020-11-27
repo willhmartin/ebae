@@ -5,10 +5,7 @@ Page({
    * Page initial data
    */
   data: {
-    canIUse: wx.canIUse('button.open-type.getUserInfo'),
-    backgroundImage: [
-      "/images/Reddrink.jpg",
-    ]
+    canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
 
   /**

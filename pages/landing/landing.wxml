@@ -13,8 +13,8 @@
 
     <view class="card-product" bindtap="onClick" data-id="{{service.id}}">
 
-
-      <image src="{{ebaeImages[index]}}" />
+<image src="{{service.ebae.avatar}}" />
+      
 
       <view class="card-product-infos">
         <view id="h1">{{service.ebae.name}}</view>
@@ -22,7 +22,7 @@
         <view id="p">${{service.price}}</view>
       </view>
     </view>
-
+ 
       </view>
     </view>
   </view>
