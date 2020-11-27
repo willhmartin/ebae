@@ -6,96 +6,8 @@ Page({
    */
   data: {
     locations: ['Baoshan', 'Changning', 'Hongkou', 'Huangpu', 'Jing\'an', 'Minhang', 'Pudong', 'Putuo', 'Qingpu', 'Songjiang', 'Xuhui', 'Yangpu'],
-    location: [
-      {
-        id: 0,
-        name: 'Baoshan'
-      },
-      {
-        id: 1,
-        name: 'Changning'
-      },
-      {
-        id: 2,
-        name: 'Hongkou'
-      },
-      {
-        id: 3,
-        name: 'Huangpu'
-      },
-      {
-        id: 4,
-        name: "Jing'an"
-      },
-      {
-        id: 5,
-        name: 'Minhang'
-      },
-      {
-        id: 6,
-        name: 'Pudong'
-      },
-      {
-        id: 7,
-        name: 'Putuo'
-      },
-      {
-        id: 8,
-        name: "Qingpu"
-      },
-      {
-        id: 9,
-        name: 'Songjiang'
-      },
-      {
-        id: 10,
-        name: 'Xuhui'
-      },
-      {
-        id: 11,
-        name: 'Yangpu'
-      }
-    ],
-
     events: ['Birthday', 'Wedding', 'Funeral', 'Family Function'],
-    event: [
-      {
-        id: 0,
-        name: 'Birthday'
-      },
-      {
-        id: 1,
-        name: 'Wedding'
-      },
-      {
-        id: 2,
-        name: 'Funeral'
-      },
-      {
-        id: 3,
-        name: 'Family Function'
-      }
-    ],
-
     roles: ['Boyfriend', 'Friend', 'Husband', 'Partner'],
-    role: [
-      {
-        id: 0,
-        name: 'Boyfriend'
-      },
-      {
-        id: 1,
-        name: 'Friend'
-      },
-      {
-        id: 2,
-        name: 'Husband'
-      },
-      {
-        id: 3,
-        name: 'Partner'
-      }
-    ],
   },
 
 
@@ -124,7 +36,8 @@ Page({
   setEvent: function(e) {
     console.log(e)
     this.data.events[e.detail.value]
-    this.setData({event:this.data.events[e.detail.value]}) 
+    this.setData({event:this.data.events[e.detail.value]})
+    
   },
 
   setLocation: function(e) {
@@ -177,6 +90,7 @@ Page({
       location: this.data.location,
       event: this.data.event,
       date: this.data.date + " " + this.data.time,
+      dateOnly: this.data.date
   
     }
     console.log(booking)

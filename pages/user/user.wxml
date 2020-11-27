@@ -19,13 +19,15 @@
       <!-- card  -->
       <view class="card-grid">
 
-        <view class="card-overview" style="margin-bottom: 30rpx;" wx:for="{{3}}" wx:for-item="service">
+        <view class="card-overview" style="margin-bottom: 30rpx;" wx:for="{{bookings}}" wx:for-item="booking">
           <!-- card-1 -->
           <view class="card-product">
-            <image src="https://tse4-mm.cn.bing.net/th/id/OIP.Lpxc2s6FlxYw288I8bzDHgHaHa?pid=Api&rs=1" />
+            <image src="{{booking.ebae.avatar}}" />
             <view class="card-product-infos">
-              <view class="h2">{{service.content}}</view>
-              <view class="p">{{service.price}}</view>
+              <view class="h2">{{booking.event}}</view>
+              <view class="p">{{booking.ebae.name}}</view>
+              <view class="p">{{booking.location}}</view>
+              <view class="p">{{booking.dateOnly}}</view>
             </view>
           </view>
 
