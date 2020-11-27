@@ -39,4 +39,6 @@
       <view>Shanghai</view>
     </view>
   </view>
+  <button  bindtap="submitBooking" class="submit">Profile</button>
+
 </view>
