@@ -44,6 +44,7 @@
 
   </view>
 
+
   <button  bindtap="goProfile" class="submit">Profile</button>
 
 
