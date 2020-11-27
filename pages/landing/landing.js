@@ -20,7 +20,7 @@ Page({
     const id = event.currentTarget.dataset.id
     console.log(event.currentTarget.dataset)
     console.log(id)
-    wx.navigateTo({
+    wx.switchTab({
       url: `/pages/service/service?id=${id}`
     })
 

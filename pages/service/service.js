@@ -9,7 +9,7 @@ Page({
   },
 
   booking: function() {
-    wx.navigateTo({
+    wx.switchTab({
       url: `/pages/booking/booking?service_id=${this.options.id}`,
     })
   },
