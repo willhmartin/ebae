@@ -4,14 +4,16 @@
 
 }
 .header {
-  color:black;
-  /* background: #F7C326; */
-  /* padding: 12px 15px; */
+  color: white;
+  background: #F7C326;
+  padding: 25px 30px;
   border-radius: 50px;
   font-weight: bolder;
   text-align: center;
-  /* margin-top: 10px; */
+  margin-top: 40px;
   margin: 10px;
+  font-family: Lobster;
+  font-size: 40px;
   /* opacity: 0.6; */
 }
 .p1{
@@ -29,13 +31,12 @@
   border-radius: 50%;
   text-align: center;
   box-shadow: 0 0 15px rgba(0,0,0,0.8);
-
 }
 .price-btn {
   color: white;
   background: #17274E;
   border: 1px;
-  padding: 2px 2px 2px 2px;
+  padding: 5px 5px 5px 5px;
   border-radius: 20px;
   font-weight: light;
   text-align: center;
@@ -44,7 +45,7 @@
 }
 /* content */
 .description {
-  color: black;
+  color: gray;
   background: #FABDBD;
   padding: 20px 20px;
   border-radius: 50px;
@@ -69,12 +70,14 @@
 .book-btn {
   color: white;
   background: #E04646;
-  padding: 12px 15px;
+  padding: 10px 20px;
+  width: 500rpx;
   border-radius: 50px;
   font-weight: bolder;
   text-align: center;
-  margin: 20px 20px;
-  transition: opacity 0.3s ease;
+  margin: 40px;
+  font-family: lobster;
+  font-size: 20px;
 }
 .all-the-btn{
   display:flex;

@@ -2,18 +2,14 @@
 <view class="background">
   <view class="container1" style="padding: 0 30rpx;">
     <!-- title -->
-
- 
-
     <view class="title-container">
-      <h1 class="title">E-Bae</h1>
+      <h1 class="title">" I can be your E-Bae "</h1>
     </view>
     <!-- card  -->
     <view class="card-grid">
 
   <view class="card-overview" style="margin-bottom: 30rpx;" wx:for="{{services}}" wx:for-item="service">
     <!-- card-1 -->
-
 
     <view class="card-product" bindtap="onClick" data-id="{{service.id}}">
 
