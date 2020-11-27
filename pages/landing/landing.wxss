@@ -69,6 +69,7 @@ position: relative;
   margin: 0;
 }
 .card-product .card-product-infos {
+  width: 100%;
   padding: 16px;
   text-align: center;
 }
