@@ -1,4 +1,8 @@
 /* pages/booking/booking.wxss */
+/* header */
+.buffer {
+  height: 30px;
+}
 
 .booking-container {
   width: 100%;
@@ -28,12 +32,10 @@
   height: 70vh;
 }
 
-.buffer {
-  height: 30px;
-}
-
+/* header */
 .title-card {
   color: white;
+  background: #F7C326;
   /* width: 193px; */
   /* height: 66px; */
   /* left: 91px; */

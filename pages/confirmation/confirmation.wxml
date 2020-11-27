@@ -12,6 +12,7 @@
 <!-- confirm info  -->
 <view class="content">
   <view class='description'>
+
     <view class="content-title">
       <view>Date</view>
       <view>12/25/2020</view>
