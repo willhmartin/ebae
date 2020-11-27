@@ -11,7 +11,7 @@
 <!-- confirm info  -->
 <view class="content">
   <view class='description'>
-  <view>Congrats, you're all set!</view>
+  <view>Congrat, you are all set!</view>
     <view class="content-title">
       <view>Date</view>
       <view>12/25/2020</view>

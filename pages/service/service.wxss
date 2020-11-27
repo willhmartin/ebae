@@ -1,27 +1,35 @@
 /* pages/service/service.wxss */
 .container {
   justify-content: center;
+
 }
 .header {
-  color: white;
-  background: #F7C326;
-  padding: 12px 15px;
+  color:black;
+  /* background: #F7C326; */
+  /* padding: 12px 15px; */
   border-radius: 50px;
   font-weight: bolder;
   text-align: center;
-  margin-top: 20px;
-
+  /* margin-top: 10px; */
   margin: 10px;
   /* opacity: 0.6; */
 }
+.p1{
+  font-size: 20px;
+}
+.p2{
+  font-size: 15px;
+  font-weight: lighter;
+}
 .avatar-large {
-  width: 156px;
-  height: 156px;
+  width: 145px;
+  height: 145px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 20px auto 0px auto;
   border-radius: 50%;
   text-align: center;
+  box-shadow: 0 0 15px rgba(0,0,0,0.8);
+
 }
 .price-btn {
   color: white;
@@ -34,15 +42,30 @@
   margin-left: 200px;
   margin-right: 50px;
 }
+/* content */
 .description {
   color: black;
   background: #FABDBD;
   padding: 20px 20px;
   border-radius: 50px;
-  font-weight: bolder;
-  text-align: center;
-  margin: 30px;
+  font-weight: light;
+  text-align: left;
+  margin: 0 15px 0 15px;
 }
+.content-title {
+  font-weight: bold;
+  padding-top: 6px;
+}
+.about-me-content {
+  border-bottom: 1px solid grey;
+  padding-bottom: 8px;
+}
+.hour-div {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid grey;
+}
+/* booking btn */
 .book-btn {
   color: white;
   background: #E04646;
@@ -50,11 +73,14 @@
   border-radius: 50px;
   font-weight: bolder;
   text-align: center;
-  margin: 60px;
+  margin: 20px 20px;
   transition: opacity 0.3s ease;
+}
+.all-the-btn{
+  display:flex;
+  justify-content: space-around;
 }
 .background {
   background-color: #A8BFC5;
-  /* background-size: cover; */
   height: 100%;
 }

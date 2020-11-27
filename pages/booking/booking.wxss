@@ -1,4 +1,8 @@
 /* pages/booking/booking.wxss */
+/* header */
+.buffer {
+  height: 30px;
+}
 
 .booking-container {
   width: 100%;
@@ -27,21 +31,24 @@
   height: 70vh;
 }
 
-.buffer {
-  height: 30px;
-}
-
+/* header */
 .title-card {
   color: white;
+  background: #F7C326;
   /* width: 193px; */
   /* height: 66px; */
   /* left: 91px; */
-  top: 39px;
+  /* top: 39px; */
   font-size: 25px;
+  font-family: "Lobster";
   font-weight: bold;
   padding:0;
   text-align: center;
   margin-bottom: 10px;
+  border-radius: 20px;
+  padding: 10px 20px;
+  width: 350rpx;
+  text-align: center;
 }
 
 .title-card text {
