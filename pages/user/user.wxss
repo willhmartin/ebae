@@ -154,3 +154,9 @@ image {
  display: absolute;
  padding: 0, 5px;
 }
+.card-image {
+  height: 100%;
+  width: 300rpx;
+  flex-shrink: 0;
+  flex-grow: 0;
+}

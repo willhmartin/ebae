@@ -18,11 +18,8 @@
       <view>Date</view>
     </view>
         <view class="content-value">
-
           <view>{{ebae.dateOnly}}</view> 
-
         </view>
-    
     <view class="content-title"> 
       <view>Duration</view>
     </view> 
