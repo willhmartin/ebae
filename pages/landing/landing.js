@@ -21,8 +21,7 @@ Page({
     console.log(event.currentTarget.dataset)
     console.log(id)
 
-    wx.reLaunch({
-
+    wx.navigateTo({
       url: `/pages/service/service?id=${id}`
     })
 //  parameters cannot be appended after a tab switch url

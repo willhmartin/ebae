@@ -10,7 +10,7 @@ Page({
 
   booking: function() {
 
-    wx.reLaunch({
+    wx.navigateTo({
 
       url: `/pages/booking/booking?service_id=${this.options.id}`,
     })

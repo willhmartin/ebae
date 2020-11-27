@@ -189,7 +189,7 @@ Page({
         console.log('works?', res)
         const id = res.data.id
          console.log(id)
-         wx.reLaunch({
+         wx.navigateTo({
           url: `/pages/confirmation/confirmation?id=${id}`
       
         })
