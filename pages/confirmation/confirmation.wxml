@@ -5,8 +5,8 @@
 
   <view class="avatar">
 
-    <image class="avatar-large" alt="avatar-large" id="img" src="{{ebae.ebae.avatar}}"></image>
-      <image class="avatar-large" alt="avatar-large" id="imgTwo"src="{{user.avatar}}"></image> 
+    <image class="avatar-large" alt="avatar-large" mode="aspectFill" id="img" src="{{ebae.ebae.avatar}}"></image>
+      <image class="avatar-large" alt="avatar-large" mode="aspectFill" id="imgTwo"src="{{user.avatar}}"></image> 
 </view>
 
 
@@ -18,14 +18,14 @@
       <view>Date & Time</view>
     </view>
         <view class="content-value">
-          <view>{{ebae.date}}hrs</view> 
+          <view>{{ebae.date}}</view> 
         </view>
     
     <view class="content-title"> 
       <view>Duration</view>
     </view> 
       <view class="content-value">
-        <view>{{ebae.ebae.duration}}</view>
+        <view>{{ebae.ebae.duration}} hrs</view>
       </view>
 
     <view class="content-title"> 
@@ -41,10 +41,5 @@
       <view>{{ebae.location}}</view>
     </view>
     <button  bindtap="goProfile" class="submit">Profile</button>
-
   </view>
-
-  <button  bindtap="goProfile" class="submit">Profile</button>
-
-
 </view>
