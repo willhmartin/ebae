@@ -5,6 +5,11 @@ Page({
    * Page initial data
    */
   data: {
+    ebaeImages: [
+      "/images/Reddrink.jpg",
+      "/images/profile2.jpg",
+      "/images/profile3.jpg",
+    ]
   },
 
   // goToServicePage: function () {

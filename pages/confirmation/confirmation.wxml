@@ -4,33 +4,41 @@
   <view class='header'>Booking Confirmed! </view>
 
   <view class="avatar">
-    <image class="avatar-large" alt="avatar-large" id="img" src="https://kitt.lewagon.com/placeholder/users/arthur-littm"></image>
+    <image class="avatar-large" alt="avatar-large" id="img" src="{{ebaeImages[0]}}"></image>
       <image class="avatar-large" alt="avatar-large" id="imgTwo"src="https://kitt.lewagon.com/placeholder/users/sarahlafer"></image> 
-</view>
+</view> 
 
 <view class="content-header">The Details</view>
 <!-- confirm info  -->
 <view class="content">
   <view class='description'>
-
     <view class="content-title">
       <view>Date</view>
-      <view>12/25/2020</view>
     </view>
+        <view class="content-value">
+          <view>12/25/2020</view> 
+        </view>
+    
     <view class="content-title"> 
       <view>Time</view>
-      <view>2 Hours</view>
     </view> 
+      <view class="content-value">
+        <view>2 Hours</view>
+      </view>
+
     <view class="content-title"> 
       <view>Event</view>
+    </view>
+    <view class="content-value">
       <view>Wedding</view>
     </view>
     <view class="content-title"> 
       <view>Location</view>
+    </view>
+    <view class="content-value"></view>
       <view>Shanghai</view>
     </view>
   </view>
   <button  bindtap="submitBooking" class="submit">Profile</button>
 
-</view>
 </view>

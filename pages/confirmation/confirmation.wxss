@@ -50,18 +50,27 @@
   font-weight: bolder;
   text-align: center;
   margin: 10px;
-  margin-bottom: 35px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   /* margin-top: 100px; */
 
 }
-.content-title{
-  display: flex;
+.content {
+  text-align: center;
+}
+.content-title {
+  /* display: flex; */
   justify-content: space-between;
   margin: 10px;
   padding: 10px;
-  color: #4A4A4A;
+  color: white;
+  font-family: Lobster;
+  font-size: 30px;
 }
-
+.content-value {
+  /* display: flex; */
+  justify-content: space-between;
+}
 .book-btn {
   color: white;
   background: #E04646;
@@ -85,7 +94,6 @@
   padding: 20px 20px;
   font-weight: bolder;
   text-align: center;
-  margin: 10px;
 }
 .submit {
   color: white;
@@ -97,3 +105,4 @@
   font-family: Lobster;
   font-size: 25px;
   }
+
