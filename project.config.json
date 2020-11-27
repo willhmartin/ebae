@@ -85,7 +85,7 @@
           "scene": null
         },
         {
-          "name": "login",
+          "name": "Login Page",
           "pathName": "pages/login/login",
           "query": "",
           "scene": null
