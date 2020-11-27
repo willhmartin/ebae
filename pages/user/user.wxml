@@ -3,10 +3,10 @@
 <view class="background">
 
   <view class="header-div">
-  <image class="avatar-bordered" alt="avatar-bordered" src="https://kitt.lewagon.com/placeholder/users/sarahlafer" />
+  <image class="avatar-bordered" alt="avatar-bordered" src="{{user.avatar}}" />
 
   <view class="header-text">
-      <view class='hi-user'>Hi, Bae!</view>
+      <view class='hi-user'>Hi, {{user.name}}</view>
   </view> 
 </view>
 

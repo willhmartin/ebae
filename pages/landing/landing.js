@@ -5,6 +5,7 @@ Page({
    * Page initial data
    */
   data: {
+    
   },
 
   // goToServicePage: function () {
@@ -44,8 +45,11 @@ Page({
       }
     })
 
+    
+
   },
 
+  
   /**
    * Lifecycle function--Called when page is initially rendered
    */

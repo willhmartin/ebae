@@ -5,7 +5,7 @@
 
   <view class="avatar">
     <image class="avatar-large" alt="avatar-large" id="img" src="https://kitt.lewagon.com/placeholder/users/arthur-littm"></image>
-      <image class="avatar-large" alt="avatar-large" id="imgTwo"src="https://kitt.lewagon.com/placeholder/users/sarahlafer"></image> 
+      <image class="avatar-large" alt="avatar-large" id="imgTwo"src="{{user.avatar}}"></image> 
 </view>
 
 <view class="content-header">The Details</view>

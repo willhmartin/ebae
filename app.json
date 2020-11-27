@@ -4,7 +4,8 @@
     "pages/user/user",
     "pages/landing/landing",
     "pages/booking/booking",
-    "pages/confirmation/confirmation"
+    "pages/confirmation/confirmation",
+    "pages/login/login"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -31,7 +32,10 @@
       {
         "pagePath": "pages/booking/booking"
       }
+     
     ]
+    
   },
+  
   "sitemapLocation": "sitemap.json"
 }
