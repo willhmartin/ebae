@@ -6,7 +6,7 @@
   <image class="avatar-bordered" alt="avatar-bordered" src="{{user.avatar}}" />
 
   <view class="header-text">
-      <view class='hi-user'>Hi, {{user.name}}</view>
+      <view class='hi-user'>Hi, {{user.name}}!</view>
   </view> 
 </view>
 

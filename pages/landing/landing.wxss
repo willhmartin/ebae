@@ -24,7 +24,7 @@
 }
 .background {
   background-color: #A8BFC5;
-  height: 120vh;
+  height: 100%;
   /* background-image: url ('pages/images/Reddrink.jpg'); */
 }
 .card {
@@ -37,11 +37,11 @@ background-color:#FABDBD;
 position: relative;
 }
 .card-grid {
-  display: grid;
+  /* display: grid; */
   grid-template-columns: 1fr;
   /* grid-gap: 7px; */
 }
-.p {
+#p {
   font-size: 14px;
   /* font-weight: 100; */
   color:black;
@@ -70,10 +70,14 @@ position: relative;
 }
 .card-product .card-product-infos {
   padding: 16px;
+  text-align: center;
 }
 .card-overview {
  display: absolute;
  padding: 0, 5px;
+}
+#h1 {
+font-weight: bold;
 }
 /* .btn.btn-ghost {
   color: #4A4A4A;
