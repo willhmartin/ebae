@@ -3,10 +3,10 @@
 <view class="background">
 
   <view class="header-div">
-  <image class="avatar-bordered" alt="avatar-bordered" src="{{user.avatar}}" />
+  <image class="avatar-bordered" alt="avatar-bordered" mode="aspectFill" src="{{user.avatar}}" />
 
   <view class="header-text">
-      <view class='hi-user'>Hi, {{user.name}}</view>
+      <view class='hi-user'>Hi, {{user.name}}!</view>
   </view> 
 </view>
 

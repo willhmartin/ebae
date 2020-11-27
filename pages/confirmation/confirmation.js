@@ -8,7 +8,7 @@ Page({
 
   },
 
-  goToLandingPage: function () {
+  goProfile: function () {
     console.log('clicked')
     wx.switchTab({
       url: '/pages/user/user'
@@ -30,6 +30,7 @@ Page({
       success(res) {
         const ebae = res.data
         console.log(ebae)
+        console.log(ebae.ebae.duration)
         page.setData({ebae})
       }
     })
