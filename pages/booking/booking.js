@@ -169,6 +169,8 @@ Page({
     console.log(e);
     const service_id = this.options.service_id
     const user_id = getApp().globalData.userId
+    console.log(service_id)
+    console.log(user_id)
     // const id = this.data.service_id
     // console.log(id)
     const booking = {
@@ -187,7 +189,7 @@ Page({
         console.log('works?', res)
         const id = res.data.id
          console.log(id)
-         wx.navigateTo({
+         wx.reLaunch({
           url: `/pages/confirmation/confirmation?id=${id}`
       
         })

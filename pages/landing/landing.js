@@ -20,10 +20,10 @@ Page({
     const id = event.currentTarget.dataset.id
     console.log(event.currentTarget.dataset)
     console.log(id)
-    wx.navigateTo({
+    wx.reLaunch({
       url: `/pages/service/service?id=${id}`
     })
-
+//  parameters cannot be appended after a tab switch url
   },
 
   /**

@@ -9,6 +9,9 @@
   <view class='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </view>
 
 
-<button bindtap="booking" data-id="{{options}}"class="book-btn" href="#">Book this E-Bae</button> 
+<button bindtap="booking" class="book-btn" href="#">Book this E-Bae</button> 
 </view>
 </view>
+
+
+<!-- data-id="{{service}}" -->
